@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Potta+One&family=Yusei+Magic&display=swap');
+@import url('static/images/index/bg_1.jpg');
+@import url('static/images/index/bg_2.jpg');
+
+
+body{
+	font-family: 'Yusei Magic', 'sans-serif';
+	padding: 0;
+	margin: 0;
+}
+
+h2{
+	text-align: center;
+	font-size: 2rem;
+}
+
+h1{
+	text-align: center;
+	font-size: 6rem;
+	position: relative;top: 170px;
+	font-family: 'Potta One', cursive;
+	color: #a081e6;
+	text-shadow: 1px 3px 2px black;
+}
+
+@media screen and (max-width: 500px){
+	h1{
+	text-align: center;
+	font-size: 4rem;
+	position: relative;top: 170px;
+	font-family: 'Potta One', cursive;
+	color: #a081e6;
+	text-shadow: 1px 3px 2px black;
+}
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/*********************IMAGE PRINCIPALE*****************/
+
+#image_principale{
+	padding: 30px;
+	background: url(/static/images/index/bg_1.jpg) no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 100vh;
+}
+
+@media screen and (max-width: 500px){
+#image_principale{
+	padding: 30px;
+	background: url(/static/images/index/bg_1.jpg) no-repeat fixed 50% 50%;
+	background-size: cover;
+	height: 100vh;
+	width: auto;
+}
+}
+
+#subtitle{
+	position: relative;top: 30%;
+	font-size: 3rem;
+	font-family: 'Yusei Magic', sans-serif;
+	color: #816c94;
+}
+
+
+/**********************PRESENTATION*****************/
+
+#presentation{
+	background-color: #a081e6;
+	padding-bottom: 200px; 
+}
+
+#prestitle{
+	font-size: 3rem;
+	color: #f7f0e1;
+	font-family: 'Lato', sans-serif;
+	position: relative;top: 50px;
+}
+
+#ppresentation{
+	text-align: center;
+	font-size: 1.5rem;
+	position: relative;top: 100px;
+	color: #f7f0e1;
+}
+
+/**************MAP*******************/
+
+#maptxt{
+	color: #a081e6;
+	font-family: 'Yusei Magic', sans-serif;
+	position: relative;top: 12px;
+}
+
+#place{
+	text-align: center;
+	font-family: 'Yusei Magic', sans-serif;
+	color: #a081e6;
+	position: relative;top: -30px;
+}
+
+#carte{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+
+@media screen and (max-width: 500px){
+#carte{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	width: auto;
+}
+}
+
+
+/*********************FOOTER********************/
+
+#legal{
+	text-align: center;}
